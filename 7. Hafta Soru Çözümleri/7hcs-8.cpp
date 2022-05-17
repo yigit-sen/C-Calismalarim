@@ -38,6 +38,7 @@ istream &operator>>(istream &is, Reklam &bne){
     is >> bne.sure;
     cout <<"Reklamin zaman dilimi (S/A)";
     is >> bne.zamandilimi;
+    return is;
 }
 
 istream &operator>>(istream &is, Dizi &bne){
@@ -45,6 +46,7 @@ istream &operator>>(istream &is, Dizi &bne){
     is >> bne.bolum;
     cout <<"Dizinin uzunludugunu girin.";
     is >> bne.uzunluk;
+    return is;
 }
 
 
