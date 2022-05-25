@@ -43,11 +43,8 @@ int main(){
         derslerim.ata(ders,mevcud,nolar);
     }
     
-
-
-
     derslerim.dersbul(_no);
 
     dersler.close();
-
+    return 0;
 }
